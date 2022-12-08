@@ -1,0 +1,56 @@
+/*Header*/
+#head #logo a {
+    display: block;
+    width: 166px;
+    height: 30px;
+    text-indent: -9999;
+}
+
+#head > .inner {
+    width: 1200px;
+    margin: 0 auto;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head #gnb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head #gnb > .nav:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#head #gnb > .nav > li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#head #gnb > .nav > li > a {
+    position: relative;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    color: #222;
+}
+
+#head #gnb > .sign {
+    margin-left: 50px;
+    overflow: hidden;
+    border-radius: 40px;
+    padding: 13px 15px 13px 37px;
+}
+
+#head #gnb > .sign > li > a {
+    display: block;
+    font-size: 14px;
+}
+

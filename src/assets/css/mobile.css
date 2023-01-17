@@ -1,0 +1,49 @@
+@media (max-width: 1200px) {
+  .inner {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 900px) {
+  html,
+  body {
+    font-size: 55%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  #head .head-wrapper {
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  #head .search-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  #clickMenu #nav > li > a {
+    background-size: 0px;
+  }
+
+  #clickMenu {
+    display: none;
+  }
+
+  #section {
+    width: 100% !important;
+    padding-left: 2rem;
+  }
+
+  #section .status-num > ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #section .status-projects {
+    float: left;
+    margin: 0 auto;
+  }
+}
